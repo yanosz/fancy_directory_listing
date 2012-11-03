@@ -12,5 +12,4 @@ ReadmeName /inc/footer.html
 AddIcon /inc/pics/folder.png ^^DIRECTORY^^
 AddIcon /inc/pics/back.png ..
 AddIcon /inc/pics/file.png *.*
-IndexIgnore favicon.ico
 ```
