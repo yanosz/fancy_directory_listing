@@ -1,4 +1,4 @@
-![Screenshot](screenshot.png)
+![Screenshot](https://github.com/tdegeling/fancy_directory_listing/blob/master/screenshot.png?raw=true)
 
 fancy_directory_listing
 =======================
