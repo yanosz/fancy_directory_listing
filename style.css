@@ -1,102 +1,69 @@
-@font-face { font-family: Rounded; src: url('/inc/HelveticaRoundedLTBold.ttf'); }
-
-/* ===========================================================================================================
-
-you can download the font over here: http://www.fontpalace.com/font-download/Helvetica%2BRounded%2BLT%2BBold/;
-
-you can get this fancy directory listing from https://github.com/tdegeling/fancy_directory_listing
-
-=========================================================================================================== */
-
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 
 body {
-        background: #434343 url("pics/bg.png");
-        margin: 0 20px;
-        color: #AAA;
-        text-shadow: 0px 3px 8px #222;
-        font-family: Rounded, "Helvetica Neue","Helvetica","Arial";
-        -webkit-user-select: none;
+    margin: 0 20px;
+    color: #323B42;
+    font-family: 'Roboto';
+    -webkit-user-select: none;
 }
 h1 {
-        text-decoration: none;
-        padding-top: 20px;
+    text-decoration: none;
+    padding-top: 20px;
 }
 a:link, a:visited, a:active {
-        text-decoration: none;
-        color: #0BF;
+    text-decoration: none;
+    color: #92D33B;//#0BF;
 }
 a:hover {
-        text-decoration: none;
-        color: #9CF;
+    text-decoration: none;
+    color: #9CF;
+}
+
+header {
+    text-align: center;
 }
 
 img {
-        margin: 2px 0;
+    max-width: 70%;
 }
 
 table th, table td {
-        text-align: left;
-        padding: 0;
+    text-align: left;
+    padding: 0;
 }
 
 table.big td {
-        padding: 5px 0;
+    padding: 5px 0;
 }
 
 hr {
-        border: 1px dashed #222;
+    border: 1px dashed #222;
 }
 
 .footer {
-        text-align: center;
-        line-height: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
 }
 
-table 
+table
 {
-  position: relative;
-  background: #434343 url("pics/bgtable.png");
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  padding: 1em;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-table:before, table:after 
-{
-  z-index: -1; 
-  position: absolute; 
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%; 
-  top: 80%;
-  max-width:300px;
-  background: rgba(0, 0, 0, 0.7); 
-  -webkit-box-shadow: 0 15px 10px rgba(0,0,0, 0.7);   
-  -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
-  -webkit-transform: rotate(-3deg);    
-  -moz-transform: rotate(-3deg);   
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
-}
-
-table:after 
-{
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
-  right: 10px;
-  left: auto;
+    position: relative;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 1em;
+    width: 100%;
 }
 
 h2 {
-        margin: 20px 0 10px 0;
-        font-size: 70px;
-        text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 70px;
+    text-align: center;
+}
+
+h1::before {
+
+    background-image: url('https://mona.lu/mona');
+    padding: 0 20px;
+    content: "";
+
 }

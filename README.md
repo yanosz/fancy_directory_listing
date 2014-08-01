@@ -1,9 +1,9 @@
-![Screenshot](https://github.com/tdegeling/fancy_directory_listing/blob/master/screenshot.png?raw=true)
+![Screenshot](https://github.com/kaweechelchen/fancy_directory_listing/blob/master/screenshot.png?raw=true)
 
 fancy_directory_listing
 =======================
 
-as seen on http://wtf.muling.lu/29c3/
+as seen on https://camp.haxogreen.lu/share
 
 you have to put these lines in your apache config:
 ```
